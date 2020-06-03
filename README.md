@@ -134,7 +134,7 @@ firefox = Firefox(time_between_calls = 10, random_delay = True)
 
 ### Persistência e carregamento de cookies
 
-O selenium já possui mecanismos de gerenciamentos de cookies, disponíveis [aqui](https://www.selenium.dev/documentation/en/support_packages/working_with_cookies/). As funcionalidades abaixo são apenas facilitadores de uso e são:
+O selenium já possui mecanismos de gerenciamentos de cookies, disponíveis [aqui](https://www.selenium.dev/documentation/en/support_packages/working_with_cookies/). As funcionalidades abaixo são apenas facilitadores de uso, sendo:
 
 - Salvar cookies ao fechar o driver
 - Recarregar os últimos cookies salvos (salvos de uma última sessão do driver)
