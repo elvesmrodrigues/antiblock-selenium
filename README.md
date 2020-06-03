@@ -36,7 +36,7 @@ Abra seu arquivo de configuração como root, disponível em */etc/tor/torrc*, p
 ```bash
 sudo nano /etc/tor/torrc
 ```
-E coloque as linhas abaixo e salve:
+Coloque as linhas abaixo e salve:
 
 ```
 ControlPort 9051
