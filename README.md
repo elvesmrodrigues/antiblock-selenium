@@ -17,7 +17,7 @@ A maneira mais simples:
 pip install antiblock-selenium
 ```
 
-## Configurando Tor
+### Configurando Tor
 
 É necessário configurar o **Tor**. Primeiramente, instale-o:
 
