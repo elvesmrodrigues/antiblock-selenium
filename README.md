@@ -51,7 +51,20 @@ sudo service tor start
 
 ## Uso
 
-As classes **Firefox** e **Chrome** de **antiblock_selenium** herdam de selenium.webdriver.Firefox e selenium.webdriver.Chrome, respectivamente. Então as use como habitualmente. As funcionalidades extras a estes webdrivers são listadas abaixo. 
+As classes **Firefox** e **Chrome** de **antiblock_selenium** herdam de selenium.webdriver.Firefox e selenium.webdriver.Chrome, respectivamente. Então as use como habitualmente. 
+
+**Uso básico**
+
+```python
+from antiblock_selenium import Firefox, Chrome
+
+chrome = Chrome()
+firefox = Firefox()
+
+#use os drivers como habitualmente faz com webdrivers
+```
+
+As funcionalidades extras a estes webdrivers são listadas abaixo. 
 
 ### Rotacionar IPs via Tor
 **Parâmetros de configuração**:
