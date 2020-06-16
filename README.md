@@ -142,7 +142,7 @@ O selenium já possui mecanismos de gerenciamentos de cookies, disponíveis [aqu
 
 **Parâmetros de configuração**:
 
-- **cookie_domain**: Tipo **String** - default ''. Para carregar cookies, o selenium precisa que acessar o site onde os cookies são válidos. Esse parâmetro representa esse site.
+- **cookie_domain**: Tipo **String** - default ''. Para carregar cookies, o selenium precisa acessar o site onde os cookies são válidos. Esse parâmetro representa esse site.
 - **persist_cookies_when_close**: Tipo **Bool** - default False. Define se os cookies do driver serão salvos quando ele for fechado.
 - **reload_cookies_when_start**: Tipo **Bool** - default False. Define se os cookies salvos de uma outra sessão do driver que foi fechada será recarregada. **Se esse parâmetro for True, cookie_domain não pode ser vazio**.
 - **location_of_cookies**: Tipo **String** - default 'cookies.pkl'. Nome ou local onde os cookies serão salvos, se persist_cookies_when_close for definido como True.
@@ -193,7 +193,8 @@ firefox.load_cookies(cookies = cookies, cookie_domain = 'https://www.google.com.
 
 ```
 
-## TODOs
+## TO-DO
 
 - Rotação de user-agents para Chrome
 - Rotação de IPs via lista de proxys
+- Aumentar cobertura de testes
