@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="antiblock-selenium",
-    version="0.0.1",
+    version="0.0.3",
     author="Elves M. Rodrigues",
     author_email="elvesmateusrodrigues@gmail.com",
     description="Selenium Firefox e Chrome webdrivers com alguns mecanismos antibloqueios",
