@@ -47,8 +47,6 @@ class TestChrome(unittest.TestCase):
         for _ in range(5):
             start = driver.last_call_timestamp
             driver.get('http://icanhazip.com/') #Because this site is light and fast to load
-            end = round(time.time(), 2)
-
             time_elapsed += round(time.time() - start, 2)
 
         driver.close()
@@ -66,8 +64,6 @@ class TestChrome(unittest.TestCase):
         for _ in range(5):
             start = driver.last_call_timestamp
             driver.get('http://icanhazip.com/') #Because this site is light and fast to load
-            end = round(time.time(), 2)
-
             time_elapsed += round(time.time() - start, 2)
 
         driver.close()
