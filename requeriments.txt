@@ -3,7 +3,7 @@ chardet==3.0.4
 idna==2.9
 pkg-resources==0.0.0
 PySocks==1.7.1
-requests==2.23.0
+requests==2.31.0
 selenium==3.141.0
 stem==1.8.0
 urllib3==1.25.9
